@@ -71,8 +71,12 @@ public class BST<T extends Comparable<? super T>> implements BSTInterface<T> {
     @Override
     public boolean contains(T data) {
         dataIsNullCheck(data);
+//        if (root == null) {
+//            return false;
+//        }
+
         return false;
-    }
+    }`
 
     @Override
     public int size() {
@@ -133,3 +137,35 @@ public class BST<T extends Comparable<? super T>> implements BSTInterface<T> {
         }
     }
 }
+
+
+//
+//
+//    @Override
+//    public boolean contains(T data) {
+//        dataIsNullCheck(data);
+//        if (root == null) {
+//            return false;
+//        }
+//        return find(data, root) != null;
+////        return false;
+//    }
+//
+//    private T find(T data, BSTNode<T> cur) {
+//        int comparison = data.compareTo(cur.getData());
+//        if (comparison > 0) {
+//            if (cur.getRight() == null) {
+//                return null;
+//            } else {
+//                return find(data, cur.getRight());
+//            }
+//        } else if (comparison < 0) {
+//            if (cur.getLeft() == null) {
+//                return null;
+//            } else {
+//                return find(data, cur.getLeft());
+//            }
+//        } else {
+//            return cur.getData();
+//        }
+//    }
