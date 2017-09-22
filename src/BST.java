@@ -53,9 +53,9 @@ public class BST<T extends Comparable<? super T>> implements BSTInterface<T> {
 
     /**
      *
-     * @param data
-     * @param curr
-     * @return
+     * @param data the data of the new node
+     * @param curr the current node to add
+     * @return the added node
      */
     private BSTNode<T> add(T data, BSTNode<T> curr) {
         if (curr == null) {
@@ -138,8 +138,7 @@ public class BST<T extends Comparable<? super T>> implements BSTInterface<T> {
         if (data == null) {
             throw new IllegalArgumentException("Data cannot be null");
         } else if (root == null) {
-            throw new NoSuchElementException("Element does not " +
-                    "exist");
+            throw new NoSuchElementException("Element does not " + "exist");
         }
         return get(data, root);
 
@@ -147,9 +146,9 @@ public class BST<T extends Comparable<? super T>> implements BSTInterface<T> {
 
     /**
      *
-     * @param data
-     * @param curr
-     * @return
+     * @param data the data to check
+     * @param curr the current node
+     * @return a list will be returned
      */
     private T get(T data, BSTNode<T> curr) {
         if (curr == null) {
@@ -174,7 +173,6 @@ public class BST<T extends Comparable<? super T>> implements BSTInterface<T> {
         } catch (NoSuchElementException e) {
             return false;
         }
-//        return (get(data, root)) != null;
     }
 
     @Override
@@ -195,9 +193,9 @@ public class BST<T extends Comparable<? super T>> implements BSTInterface<T> {
 
     /**
      *
-     * @param list
-     * @param curr
-     * @return
+     * @param list a list is the first parameter
+     * @param curr the current node
+     * @return a list will be returned
      */
     private List<T> preorder(List<T> list, BSTNode<T> curr) {
         list.add(curr.getData());
@@ -221,9 +219,9 @@ public class BST<T extends Comparable<? super T>> implements BSTInterface<T> {
 
     /**
      *
-     * @param list
-     * @param curr
-     * @return
+     * @param list a list is the first parameter
+     * @param curr the current node
+     * @return a list will be returned
      */
     private List<T> postorder(List<T> list, BSTNode<T> curr) {
         if (curr.getLeft() != null) {
@@ -248,9 +246,9 @@ public class BST<T extends Comparable<? super T>> implements BSTInterface<T> {
 
     /**
      *
-     * @param list
-     * @param curr
-     * @return
+     * @param list a list is the first parameter
+     * @param curr the current node
+     * @return a list will be returned
      */
     private List<T> inorder(List<T> list, BSTNode<T> curr) {
         if (curr.getLeft() != null) {
@@ -297,9 +295,9 @@ public class BST<T extends Comparable<? super T>> implements BSTInterface<T> {
 
     /**
      *
-     * @param curr
-     * @param list
-     * @return
+     * @param curr the current node
+     * @param list the list to go through
+     * @return the list
      */
     private List<T> listLeavesDescending(BSTNode<T> curr, List<T> list) {
         if (curr.getRight() != null) {
@@ -322,19 +320,25 @@ public class BST<T extends Comparable<? super T>> implements BSTInterface<T> {
 
     @Override
     public int height() {
-        return height(root);
+        return height(root) - 1;
     }
 
     /**
-     *
-     * @param root
-     * @return
+     * @param curr the current node
+     * @return height in int form
      */
-    private int height(BSTNode<T> root) {
-        if (root == null) {
-            return -1;
+    private int height(BSTNode<T> curr) {
+        if (curr == null) {
+            return 0;
+        } else {
+            int left = height(curr.getLeft());
+            int right = height(curr.getRight());
+            if (left > right) {
+                return (left + 1);
+            } else {
+                return (right + 1);
+            }
         }
-        return Math.max(height(root.getLeft()), height(root.getRight())) + 1;
     }
 
 
@@ -356,44 +360,12 @@ public class BST<T extends Comparable<? super T>> implements BSTInterface<T> {
 
     /**
      *
-     * @param curr
+     * @param curr the data to check if it is null
      */
     private void checkForNoSuchElement(BSTNode<T> curr) {
         if (curr == null) {
-            throw new java.util.NoSuchElementException("Element does not " +
-                    "exist");
+            throw new java.util.NoSuchElementException("Element does not "
+                    + "exist");
         }
     }
 }
-
-
-//
-//
-//    @Override
-//    public boolean contains(T data) {
-//        dataIsNullCheck(data);
-//        if (root == null) {
-//            return false;
-//        }
-//        return find(data, root) != null;
-////        return false;
-//    }
-//
-//    private T find(T data, BSTNode<T> cur) {
-//        int comparison = data.compareTo(cur.getData());
-//        if (comparison > 0) {
-//            if (cur.getRight() == null) {
-//                return null;
-//            } else {
-//                return find(data, cur.getRight());
-//            }
-//        } else if (comparison < 0) {
-//            if (cur.getLeft() == null) {
-//                return null;
-//            } else {
-//                return find(data, cur.getLeft());
-//            }
-//        } else {
-//            return cur.getData();
-//        }
-//    }
