@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9e036b3-7be6-4d35-8771-b9034650c928" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BSTTestsSanath.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BinarySearchTrees/BST.class" afterPath="$PROJECT_DIR$/out/production/BinarySearchTrees/BST.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BonBSTTests.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BinarySearchTrees/BST.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BST.java" afterPath="$PROJECT_DIR$/src/BST.java" />
     </list>
@@ -17,28 +17,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="BST.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+            <state relative-caret-position="525">
+              <caret line="177" column="5" lean-forward="false" selection-start-line="177" selection-start-column="5" selection-end-line="177" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#BST#0" expanded="true" />
                 <element signature="docComment;method#BST#0;class#BST#0" expanded="true" />
+                <element signature="method#BST#0;class#BST#0" expanded="true" />
                 <element signature="docComment;method#BST#1;class#BST#0" expanded="true" />
                 <element signature="method#BST#1;class#BST#0" expanded="true" />
                 <element signature="method#add#0;class#BST#0" expanded="true" />
+                <element signature="docComment;method#add#1;class#BST#0" expanded="true" />
+                <element signature="method#add#1;class#BST#0" expanded="true" />
+                <element signature="method#remove#0;class#BST#0" expanded="true" />
+                <element signature="docComment;method#removeHelper#0;class#BST#0" expanded="true" />
+                <element signature="method#removeHelper#0;class#BST#0" expanded="true" />
+                <element signature="docComment;method#removePred#0;class#BST#0" expanded="true" />
+                <element signature="method#removePred#0;class#BST#0" expanded="true" />
                 <element signature="method#get#0;class#BST#0" expanded="true" />
-                <element signature="e#1760#1789#0" expanded="true" />
+                <element signature="docComment;method#get#1;class#BST#0" expanded="true" />
+                <element signature="method#get#1;class#BST#0" expanded="true" />
+                <element signature="method#contains#0;class#BST#0" expanded="true" />
                 <element signature="method#size#0;class#BST#0" expanded="true" />
-                <element signature="e#2083#2084#0" expanded="true" />
-                <element signature="e#2110#2111#0" expanded="true" />
+                <element signature="method#preorder#0;class#BST#0" expanded="true" />
+                <element signature="docComment;method#preorder#1;class#BST#0" expanded="true" />
+                <element signature="method#preorder#1;class#BST#0" expanded="true" />
+                <element signature="method#postorder#0;class#BST#0" expanded="true" />
+                <element signature="docComment;method#postorder#1;class#BST#0" expanded="true" />
+                <element signature="method#postorder#1;class#BST#0" expanded="true" />
+                <element signature="method#inorder#0;class#BST#0" expanded="true" />
+                <element signature="docComment;method#inorder#1;class#BST#0" expanded="true" />
+                <element signature="method#inorder#1;class#BST#0" expanded="true" />
+                <element signature="method#levelorder#0;class#BST#0" expanded="true" />
+                <element signature="e#7172#7184#0" expanded="true" />
+                <element signature="method#listLeavesDescending#0;class#BST#0" expanded="true" />
+                <element signature="docComment;method#listLeavesDescending#1;class#BST#0" expanded="true" />
+                <element signature="method#listLeavesDescending#1;class#BST#0" expanded="true" />
                 <element signature="method#clear#0;class#BST#0" expanded="true" />
+                <element signature="e#8497#8498#0" expanded="true" />
+                <element signature="e#8532#8533#0" expanded="true" />
+                <element signature="docComment;method#height#1;class#BST#0" expanded="true" />
+                <element signature="method#height#1;class#BST#0" expanded="true" />
                 <element signature="method#getRoot#0;class#BST#0" expanded="true" />
                 <element signature="docComment;method#dataIsNullCheck#0;class#BST#0" expanded="true" />
                 <element signature="method#dataIsNullCheck#0;class#BST#0" expanded="true" />
+                <element signature="docComment;method#checkForNoSuchElement#0;class#BST#0" expanded="true" />
+                <element signature="method#checkForNoSuchElement#0;class#BST#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BonBSTTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BonBSTTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,23 +84,17 @@
       <file leaf-file-name="BSTTestsSanath.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BSTTestsSanath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="529" column="1" lean-forward="false" selection-start-line="529" selection-start-column="1" selection-end-line="529" selection-end-column="1" />
+            <state relative-caret-position="263">
+              <caret line="383" column="0" lean-forward="false" selection-start-line="383" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#BSTTestsSanath#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
                 <element signature="method#testArgsConstructor#0;class#BSTTestsSanath#0" expanded="true" />
-                <element signature="e#1250#1251#0" expanded="true" />
-                <element signature="e#1287#1288#0" expanded="true" />
                 <element signature="method#testArgsConstructorException2#0;class#BSTTestsSanath#0" expanded="true" />
                 <element signature="method#testArgsConstructorException3#0;class#BSTTestsSanath#0" expanded="true" />
                 <element signature="method#testAdd#0;class#BSTTestsSanath#0" expanded="true" />
                 <element signature="method#testAddException#0;class#BSTTestsSanath#0" expanded="true" />
                 <element signature="method#testRemove#0;class#BSTTestsSanath#0" expanded="true" />
-                <element signature="e#11132#11133#0" expanded="true" />
-                <element signature="e#11164#11165#0" expanded="true" />
                 <element signature="method#testRemoveException2#0;class#BSTTestsSanath#0" expanded="true" />
                 <element signature="method#testRemoveException3#0;class#BSTTestsSanath#0" expanded="true" />
                 <element signature="method#testRemoveException4#0;class#BSTTestsSanath#0" expanded="true" />
@@ -72,9 +104,6 @@
                 <element signature="method#testGetException2#0;class#BSTTestsSanath#0" expanded="true" />
                 <element signature="method#testGetException3#0;class#BSTTestsSanath#0" expanded="true" />
                 <element signature="method#testGetException4#0;class#BSTTestsSanath#0" expanded="true" />
-                <element signature="method#testContain#0;class#BSTTestsSanath#0" expanded="true" />
-                <element signature="e#15026#15027#0" expanded="true" />
-                <element signature="e#15055#15056#0" expanded="true" />
                 <element signature="method#testContainException2#0;class#BSTTestsSanath#0" expanded="true" />
                 <element signature="method#testLevelorder#0;class#BSTTestsSanath#0" expanded="true" />
                 <element signature="method#testInorder#0;class#BSTTestsSanath#0" expanded="true" />
@@ -82,8 +111,6 @@
                 <element signature="method#testPostorder#0;class#BSTTestsSanath#0" expanded="true" />
                 <element signature="method#testLeavesDescending#0;class#BSTTestsSanath#0" expanded="true" />
                 <element signature="method#testHeight#0;class#BSTTestsSanath#0" expanded="true" />
-                <element signature="e#19594#19595#0" expanded="true" />
-                <element signature="e#19621#19622#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,8 +119,8 @@
       <file leaf-file-name="BSTInterface.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BSTInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="75" column="12" lean-forward="false" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+            <state relative-caret-position="231">
+              <caret line="63" column="6" lean-forward="false" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -112,8 +139,8 @@
       <file leaf-file-name="BSTStudentTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BSTStudentTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="284">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -186,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BSTTestsSanath">
+  <component name="RunManager" selected="JUnit.BSTStudentTests">
     <configuration name="BSTStudentTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="BinarySearchTrees" />
@@ -314,8 +341,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BSTTestsSanath" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BSTStudentTests" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BSTStudentTests" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BSTTestsSanath" />
       </list>
     </recent_temporary>
   </component>
@@ -333,34 +360,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BSTStudentTests - 2017.09.20 at 10h 32m 23s.xml">
+    <history-entry file="BSTStudentTests - 2017.09.22 at 18h 16m 12s.xml">
       <configuration name="BSTStudentTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BSTStudentTests - 2017.09.20 at 10h 33m 53s.xml">
-      <configuration name="BSTStudentTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BSTStudentTests - 2017.09.20 at 10h 37m 45s.xml">
-      <configuration name="BSTStudentTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BSTStudentTests - 2017.09.20 at 10h 38m 18s.xml">
-      <configuration name="BSTStudentTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BSTStudentTests - 2017.09.20 at 10h 44m 42s.xml">
-      <configuration name="BSTStudentTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BSTStudentTests - 2017.09.22 at 13h 55m 02s.xml">
-      <configuration name="BSTStudentTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BSTStudentTests - 2017.09.22 at 14h 00m 18s.xml">
-      <configuration name="BSTStudentTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BSTStudentTests - 2017.09.22 at 14h 09m 19s.xml">
-      <configuration name="BSTStudentTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BSTTestsSanath - 2017.09.22 at 14h 11m 37s.xml">
+    <history-entry file="BSTTestsSanath - 2017.09.22 at 18h 04m 58s.xml">
       <configuration name="BSTTestsSanath" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BSTTestsSanath - 2017.09.22 at 14h 14m 36s.xml">
+    <history-entry file="BSTTestsSanath - 2017.09.22 at 18h 05m 26s.xml">
+      <configuration name="BSTTestsSanath" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BSTTestsSanath - 2017.09.22 at 18h 10m 33s.xml">
+      <configuration name="BSTTestsSanath" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BSTTestsSanath - 2017.09.22 at 18h 10m 55s.xml">
+      <configuration name="BSTTestsSanath" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BSTTestsSanath - 2017.09.22 at 18h 13m 09s.xml">
+      <configuration name="BSTTestsSanath" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BSTTestsSanath - 2017.09.22 at 18h 14m 03s.xml">
+      <configuration name="BSTTestsSanath" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BSTTestsSanath - 2017.09.22 at 18h 14m 45s.xml">
+      <configuration name="BSTTestsSanath" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BSTTestsSanath - 2017.09.22 at 18h 15m 43s.xml">
+      <configuration name="BSTTestsSanath" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BSTTestsSanath - 2017.09.22 at 18h 16m 05s.xml">
       <configuration name="BSTTestsSanath" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -369,17 +396,17 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1584318" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.867884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6686359" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25349087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -387,13 +414,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6084855" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -401,8 +428,82 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BSTStudentTests.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BSTStudentTests.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BSTStudentTests.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BSTStudentTests.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BSTStudentTests.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BSTStudentTests.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BSTStudentTests.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BSTStudentTests.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BSTStudentTests.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BSTStudentTests.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BSTStudentTests.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="23" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="((BST)bst).root.left.data" custom="BST" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/BST.java">
@@ -413,18 +514,46 @@
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#BST#0" expanded="true" />
             <element signature="docComment;method#BST#0;class#BST#0" expanded="true" />
+            <element signature="method#BST#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#BST#1;class#BST#0" expanded="true" />
             <element signature="method#BST#1;class#BST#0" expanded="true" />
             <element signature="method#add#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#add#1;class#BST#0" expanded="true" />
+            <element signature="method#add#1;class#BST#0" expanded="true" />
+            <element signature="method#remove#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#removeHelper#0;class#BST#0" expanded="true" />
+            <element signature="method#removeHelper#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#removePred#0;class#BST#0" expanded="true" />
+            <element signature="method#removePred#0;class#BST#0" expanded="true" />
             <element signature="method#get#0;class#BST#0" expanded="true" />
-            <element signature="e#1760#1789#0" expanded="true" />
+            <element signature="docComment;method#get#1;class#BST#0" expanded="true" />
+            <element signature="method#get#1;class#BST#0" expanded="true" />
+            <element signature="method#contains#0;class#BST#0" expanded="true" />
             <element signature="method#size#0;class#BST#0" expanded="true" />
-            <element signature="e#2083#2084#0" expanded="true" />
-            <element signature="e#2110#2111#0" expanded="true" />
+            <element signature="method#preorder#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#preorder#1;class#BST#0" expanded="true" />
+            <element signature="method#preorder#1;class#BST#0" expanded="true" />
+            <element signature="method#postorder#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#postorder#1;class#BST#0" expanded="true" />
+            <element signature="method#postorder#1;class#BST#0" expanded="true" />
+            <element signature="method#inorder#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#inorder#1;class#BST#0" expanded="true" />
+            <element signature="method#inorder#1;class#BST#0" expanded="true" />
+            <element signature="method#levelorder#0;class#BST#0" expanded="true" />
+            <element signature="e#7172#7184#0" expanded="true" />
+            <element signature="method#listLeavesDescending#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#listLeavesDescending#1;class#BST#0" expanded="true" />
+            <element signature="method#listLeavesDescending#1;class#BST#0" expanded="true" />
             <element signature="method#clear#0;class#BST#0" expanded="true" />
+            <element signature="e#8497#8498#0" expanded="true" />
+            <element signature="e#8532#8533#0" expanded="true" />
+            <element signature="docComment;method#height#1;class#BST#0" expanded="true" />
+            <element signature="method#height#1;class#BST#0" expanded="true" />
             <element signature="method#getRoot#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#dataIsNullCheck#0;class#BST#0" expanded="true" />
             <element signature="method#dataIsNullCheck#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#checkForNoSuchElement#0;class#BST#0" expanded="true" />
+            <element signature="method#checkForNoSuchElement#0;class#BST#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -461,18 +590,46 @@
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#BST#0" expanded="true" />
             <element signature="docComment;method#BST#0;class#BST#0" expanded="true" />
+            <element signature="method#BST#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#BST#1;class#BST#0" expanded="true" />
             <element signature="method#BST#1;class#BST#0" expanded="true" />
             <element signature="method#add#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#add#1;class#BST#0" expanded="true" />
+            <element signature="method#add#1;class#BST#0" expanded="true" />
+            <element signature="method#remove#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#removeHelper#0;class#BST#0" expanded="true" />
+            <element signature="method#removeHelper#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#removePred#0;class#BST#0" expanded="true" />
+            <element signature="method#removePred#0;class#BST#0" expanded="true" />
             <element signature="method#get#0;class#BST#0" expanded="true" />
-            <element signature="e#1760#1789#0" expanded="true" />
+            <element signature="docComment;method#get#1;class#BST#0" expanded="true" />
+            <element signature="method#get#1;class#BST#0" expanded="true" />
+            <element signature="method#contains#0;class#BST#0" expanded="true" />
             <element signature="method#size#0;class#BST#0" expanded="true" />
-            <element signature="e#2083#2084#0" expanded="true" />
-            <element signature="e#2110#2111#0" expanded="true" />
+            <element signature="method#preorder#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#preorder#1;class#BST#0" expanded="true" />
+            <element signature="method#preorder#1;class#BST#0" expanded="true" />
+            <element signature="method#postorder#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#postorder#1;class#BST#0" expanded="true" />
+            <element signature="method#postorder#1;class#BST#0" expanded="true" />
+            <element signature="method#inorder#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#inorder#1;class#BST#0" expanded="true" />
+            <element signature="method#inorder#1;class#BST#0" expanded="true" />
+            <element signature="method#levelorder#0;class#BST#0" expanded="true" />
+            <element signature="e#7172#7184#0" expanded="true" />
+            <element signature="method#listLeavesDescending#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#listLeavesDescending#1;class#BST#0" expanded="true" />
+            <element signature="method#listLeavesDescending#1;class#BST#0" expanded="true" />
             <element signature="method#clear#0;class#BST#0" expanded="true" />
+            <element signature="e#8497#8498#0" expanded="true" />
+            <element signature="e#8532#8533#0" expanded="true" />
+            <element signature="docComment;method#height#1;class#BST#0" expanded="true" />
+            <element signature="method#height#1;class#BST#0" expanded="true" />
             <element signature="method#getRoot#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#dataIsNullCheck#0;class#BST#0" expanded="true" />
             <element signature="method#dataIsNullCheck#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#checkForNoSuchElement#0;class#BST#0" expanded="true" />
+            <element signature="method#checkForNoSuchElement#0;class#BST#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -509,18 +666,46 @@
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#BST#0" expanded="true" />
             <element signature="docComment;method#BST#0;class#BST#0" expanded="true" />
+            <element signature="method#BST#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#BST#1;class#BST#0" expanded="true" />
             <element signature="method#BST#1;class#BST#0" expanded="true" />
             <element signature="method#add#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#add#1;class#BST#0" expanded="true" />
+            <element signature="method#add#1;class#BST#0" expanded="true" />
+            <element signature="method#remove#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#removeHelper#0;class#BST#0" expanded="true" />
+            <element signature="method#removeHelper#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#removePred#0;class#BST#0" expanded="true" />
+            <element signature="method#removePred#0;class#BST#0" expanded="true" />
             <element signature="method#get#0;class#BST#0" expanded="true" />
-            <element signature="e#1760#1789#0" expanded="true" />
+            <element signature="docComment;method#get#1;class#BST#0" expanded="true" />
+            <element signature="method#get#1;class#BST#0" expanded="true" />
+            <element signature="method#contains#0;class#BST#0" expanded="true" />
             <element signature="method#size#0;class#BST#0" expanded="true" />
-            <element signature="e#2083#2084#0" expanded="true" />
-            <element signature="e#2110#2111#0" expanded="true" />
+            <element signature="method#preorder#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#preorder#1;class#BST#0" expanded="true" />
+            <element signature="method#preorder#1;class#BST#0" expanded="true" />
+            <element signature="method#postorder#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#postorder#1;class#BST#0" expanded="true" />
+            <element signature="method#postorder#1;class#BST#0" expanded="true" />
+            <element signature="method#inorder#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#inorder#1;class#BST#0" expanded="true" />
+            <element signature="method#inorder#1;class#BST#0" expanded="true" />
+            <element signature="method#levelorder#0;class#BST#0" expanded="true" />
+            <element signature="e#7172#7184#0" expanded="true" />
+            <element signature="method#listLeavesDescending#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#listLeavesDescending#1;class#BST#0" expanded="true" />
+            <element signature="method#listLeavesDescending#1;class#BST#0" expanded="true" />
             <element signature="method#clear#0;class#BST#0" expanded="true" />
+            <element signature="e#8497#8498#0" expanded="true" />
+            <element signature="e#8532#8533#0" expanded="true" />
+            <element signature="docComment;method#height#1;class#BST#0" expanded="true" />
+            <element signature="method#height#1;class#BST#0" expanded="true" />
             <element signature="method#getRoot#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#dataIsNullCheck#0;class#BST#0" expanded="true" />
             <element signature="method#dataIsNullCheck#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#checkForNoSuchElement#0;class#BST#0" expanded="true" />
+            <element signature="method#checkForNoSuchElement#0;class#BST#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -557,18 +742,46 @@
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#BST#0" expanded="true" />
             <element signature="docComment;method#BST#0;class#BST#0" expanded="true" />
+            <element signature="method#BST#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#BST#1;class#BST#0" expanded="true" />
             <element signature="method#BST#1;class#BST#0" expanded="true" />
             <element signature="method#add#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#add#1;class#BST#0" expanded="true" />
+            <element signature="method#add#1;class#BST#0" expanded="true" />
+            <element signature="method#remove#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#removeHelper#0;class#BST#0" expanded="true" />
+            <element signature="method#removeHelper#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#removePred#0;class#BST#0" expanded="true" />
+            <element signature="method#removePred#0;class#BST#0" expanded="true" />
             <element signature="method#get#0;class#BST#0" expanded="true" />
-            <element signature="e#1760#1789#0" expanded="true" />
+            <element signature="docComment;method#get#1;class#BST#0" expanded="true" />
+            <element signature="method#get#1;class#BST#0" expanded="true" />
+            <element signature="method#contains#0;class#BST#0" expanded="true" />
             <element signature="method#size#0;class#BST#0" expanded="true" />
-            <element signature="e#2083#2084#0" expanded="true" />
-            <element signature="e#2110#2111#0" expanded="true" />
+            <element signature="method#preorder#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#preorder#1;class#BST#0" expanded="true" />
+            <element signature="method#preorder#1;class#BST#0" expanded="true" />
+            <element signature="method#postorder#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#postorder#1;class#BST#0" expanded="true" />
+            <element signature="method#postorder#1;class#BST#0" expanded="true" />
+            <element signature="method#inorder#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#inorder#1;class#BST#0" expanded="true" />
+            <element signature="method#inorder#1;class#BST#0" expanded="true" />
+            <element signature="method#levelorder#0;class#BST#0" expanded="true" />
+            <element signature="e#7172#7184#0" expanded="true" />
+            <element signature="method#listLeavesDescending#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#listLeavesDescending#1;class#BST#0" expanded="true" />
+            <element signature="method#listLeavesDescending#1;class#BST#0" expanded="true" />
             <element signature="method#clear#0;class#BST#0" expanded="true" />
+            <element signature="e#8497#8498#0" expanded="true" />
+            <element signature="e#8532#8533#0" expanded="true" />
+            <element signature="docComment;method#height#1;class#BST#0" expanded="true" />
+            <element signature="method#height#1;class#BST#0" expanded="true" />
             <element signature="method#getRoot#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#dataIsNullCheck#0;class#BST#0" expanded="true" />
             <element signature="method#dataIsNullCheck#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#checkForNoSuchElement#0;class#BST#0" expanded="true" />
+            <element signature="method#checkForNoSuchElement#0;class#BST#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -605,33 +818,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/BSTInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="63" column="6" lean-forward="false" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BSTStudentTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="284">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BSTTestsSanath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="529" column="1" lean-forward="false" selection-start-line="529" selection-start-column="1" selection-end-line="529" selection-end-column="1" />
+        <state relative-caret-position="263">
+          <caret line="383" column="0" lean-forward="false" selection-start-line="383" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#BSTTestsSanath#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
             <element signature="method#testArgsConstructor#0;class#BSTTestsSanath#0" expanded="true" />
-            <element signature="e#1250#1251#0" expanded="true" />
-            <element signature="e#1287#1288#0" expanded="true" />
             <element signature="method#testArgsConstructorException2#0;class#BSTTestsSanath#0" expanded="true" />
             <element signature="method#testArgsConstructorException3#0;class#BSTTestsSanath#0" expanded="true" />
             <element signature="method#testAdd#0;class#BSTTestsSanath#0" expanded="true" />
             <element signature="method#testAddException#0;class#BSTTestsSanath#0" expanded="true" />
             <element signature="method#testRemove#0;class#BSTTestsSanath#0" expanded="true" />
-            <element signature="e#11132#11133#0" expanded="true" />
-            <element signature="e#11164#11165#0" expanded="true" />
             <element signature="method#testRemoveException2#0;class#BSTTestsSanath#0" expanded="true" />
             <element signature="method#testRemoveException3#0;class#BSTTestsSanath#0" expanded="true" />
             <element signature="method#testRemoveException4#0;class#BSTTestsSanath#0" expanded="true" />
@@ -641,9 +856,6 @@
             <element signature="method#testGetException2#0;class#BSTTestsSanath#0" expanded="true" />
             <element signature="method#testGetException3#0;class#BSTTestsSanath#0" expanded="true" />
             <element signature="method#testGetException4#0;class#BSTTestsSanath#0" expanded="true" />
-            <element signature="method#testContain#0;class#BSTTestsSanath#0" expanded="true" />
-            <element signature="e#15026#15027#0" expanded="true" />
-            <element signature="e#15055#15056#0" expanded="true" />
             <element signature="method#testContainException2#0;class#BSTTestsSanath#0" expanded="true" />
             <element signature="method#testLevelorder#0;class#BSTTestsSanath#0" expanded="true" />
             <element signature="method#testInorder#0;class#BSTTestsSanath#0" expanded="true" />
@@ -651,41 +863,67 @@
             <element signature="method#testPostorder#0;class#BSTTestsSanath#0" expanded="true" />
             <element signature="method#testLeavesDescending#0;class#BSTTestsSanath#0" expanded="true" />
             <element signature="method#testHeight#0;class#BSTTestsSanath#0" expanded="true" />
-            <element signature="e#19594#19595#0" expanded="true" />
-            <element signature="e#19621#19622#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BSTInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="75" column="12" lean-forward="false" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+        <state relative-caret-position="525">
+          <caret line="177" column="5" lean-forward="false" selection-start-line="177" selection-start-column="5" selection-end-line="177" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#BST#0" expanded="true" />
             <element signature="docComment;method#BST#0;class#BST#0" expanded="true" />
+            <element signature="method#BST#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#BST#1;class#BST#0" expanded="true" />
             <element signature="method#BST#1;class#BST#0" expanded="true" />
             <element signature="method#add#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#add#1;class#BST#0" expanded="true" />
+            <element signature="method#add#1;class#BST#0" expanded="true" />
+            <element signature="method#remove#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#removeHelper#0;class#BST#0" expanded="true" />
+            <element signature="method#removeHelper#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#removePred#0;class#BST#0" expanded="true" />
+            <element signature="method#removePred#0;class#BST#0" expanded="true" />
             <element signature="method#get#0;class#BST#0" expanded="true" />
-            <element signature="e#1760#1789#0" expanded="true" />
+            <element signature="docComment;method#get#1;class#BST#0" expanded="true" />
+            <element signature="method#get#1;class#BST#0" expanded="true" />
+            <element signature="method#contains#0;class#BST#0" expanded="true" />
             <element signature="method#size#0;class#BST#0" expanded="true" />
-            <element signature="e#2083#2084#0" expanded="true" />
-            <element signature="e#2110#2111#0" expanded="true" />
+            <element signature="method#preorder#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#preorder#1;class#BST#0" expanded="true" />
+            <element signature="method#preorder#1;class#BST#0" expanded="true" />
+            <element signature="method#postorder#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#postorder#1;class#BST#0" expanded="true" />
+            <element signature="method#postorder#1;class#BST#0" expanded="true" />
+            <element signature="method#inorder#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#inorder#1;class#BST#0" expanded="true" />
+            <element signature="method#inorder#1;class#BST#0" expanded="true" />
+            <element signature="method#levelorder#0;class#BST#0" expanded="true" />
+            <element signature="e#7172#7184#0" expanded="true" />
+            <element signature="method#listLeavesDescending#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#listLeavesDescending#1;class#BST#0" expanded="true" />
+            <element signature="method#listLeavesDescending#1;class#BST#0" expanded="true" />
             <element signature="method#clear#0;class#BST#0" expanded="true" />
+            <element signature="e#8497#8498#0" expanded="true" />
+            <element signature="e#8532#8533#0" expanded="true" />
+            <element signature="docComment;method#height#1;class#BST#0" expanded="true" />
+            <element signature="method#height#1;class#BST#0" expanded="true" />
             <element signature="method#getRoot#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#dataIsNullCheck#0;class#BST#0" expanded="true" />
             <element signature="method#dataIsNullCheck#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#checkForNoSuchElement#0;class#BST#0" expanded="true" />
+            <element signature="method#checkForNoSuchElement#0;class#BST#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BonBSTTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
