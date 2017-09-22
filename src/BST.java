@@ -9,10 +9,10 @@ import java.util.NoSuchElementException;
 /**
  * Your implementation of a binary search tree.
  *
- * @author YOUR NAME HERE
- * @userid YOUR USER ID HERE (i.e. gburdell3)
- * @GTID YOUR GT ID HERE (i.e. 900000000)
- * @version 1.0
+ * @author Ahmed Gedi
+ * @userid agedi3
+ * @GTID 903197142
+ * @version 1.44
  */
 public class BST<T extends Comparable<? super T>> implements BSTInterface<T> {
     // DO NOT ADD OR MODIFY INSTANCE VARIABLES.

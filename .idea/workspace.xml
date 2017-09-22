@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9e036b3-7be6-4d35-8771-b9034650c928" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DerekBSTTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BST.java" afterPath="$PROJECT_DIR$/src/BST.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BonBSTTests.java" afterPath="$PROJECT_DIR$/src/BonBSTTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,16 +17,16 @@
       <file leaf-file-name="BST.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="55" column="43" lean-forward="false" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
+            <state relative-caret-position="294">
+              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="docComment;class#BST#0" expanded="true" />
                 <element signature="docComment;method#BST#0;class#BST#0" expanded="true" />
                 <element signature="method#BST#0;class#BST#0" expanded="true" />
                 <element signature="docComment;method#BST#1;class#BST#0" expanded="true" />
                 <element signature="method#BST#1;class#BST#0" expanded="true" />
                 <element signature="method#add#0;class#BST#0" expanded="true" />
+                <element signature="docComment;method#add#1;class#BST#0" expanded="true" />
                 <element signature="method#add#1;class#BST#0" expanded="true" />
                 <element signature="method#remove#0;class#BST#0" expanded="true" />
                 <element signature="docComment;method#removeHelper#0;class#BST#0" expanded="true" />
@@ -51,13 +48,13 @@
                 <element signature="docComment;method#inorder#1;class#BST#0" expanded="true" />
                 <element signature="method#inorder#1;class#BST#0" expanded="true" />
                 <element signature="method#levelorder#0;class#BST#0" expanded="true" />
-                <element signature="e#7444#7456#0" expanded="true" />
+                <element signature="e#7390#7402#0" expanded="true" />
                 <element signature="method#listLeavesDescending#0;class#BST#0" expanded="true" />
                 <element signature="docComment;method#listLeavesDescending#1;class#BST#0" expanded="true" />
                 <element signature="method#listLeavesDescending#1;class#BST#0" expanded="true" />
                 <element signature="method#clear#0;class#BST#0" expanded="true" />
-                <element signature="e#8818#8819#0" expanded="true" />
-                <element signature="e#8857#8858#0" expanded="true" />
+                <element signature="e#8764#8765#0" expanded="true" />
+                <element signature="e#8803#8804#0" expanded="true" />
                 <element signature="docComment;method#height#1;class#BST#0" expanded="true" />
                 <element signature="method#height#1;class#BST#0" expanded="true" />
                 <element signature="method#getRoot#0;class#BST#0" expanded="true" />
@@ -483,6 +480,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -494,7 +492,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66822916" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5134264" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5134264" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -601,12 +599,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#BST#0" expanded="true" />
             <element signature="docComment;method#BST#0;class#BST#0" expanded="true" />
             <element signature="method#BST#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#BST#1;class#BST#0" expanded="true" />
             <element signature="method#BST#1;class#BST#0" expanded="true" />
             <element signature="method#add#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#add#1;class#BST#0" expanded="true" />
             <element signature="method#add#1;class#BST#0" expanded="true" />
             <element signature="method#remove#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#removeHelper#0;class#BST#0" expanded="true" />
@@ -628,13 +626,13 @@
             <element signature="docComment;method#inorder#1;class#BST#0" expanded="true" />
             <element signature="method#inorder#1;class#BST#0" expanded="true" />
             <element signature="method#levelorder#0;class#BST#0" expanded="true" />
-            <element signature="e#7444#7456#0" expanded="true" />
+            <element signature="e#7390#7402#0" expanded="true" />
             <element signature="method#listLeavesDescending#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#listLeavesDescending#1;class#BST#0" expanded="true" />
             <element signature="method#listLeavesDescending#1;class#BST#0" expanded="true" />
             <element signature="method#clear#0;class#BST#0" expanded="true" />
-            <element signature="e#8818#8819#0" expanded="true" />
-            <element signature="e#8857#8858#0" expanded="true" />
+            <element signature="e#8764#8765#0" expanded="true" />
+            <element signature="e#8803#8804#0" expanded="true" />
             <element signature="docComment;method#height#1;class#BST#0" expanded="true" />
             <element signature="method#height#1;class#BST#0" expanded="true" />
             <element signature="method#getRoot#0;class#BST#0" expanded="true" />
@@ -676,12 +674,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#BST#0" expanded="true" />
             <element signature="docComment;method#BST#0;class#BST#0" expanded="true" />
             <element signature="method#BST#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#BST#1;class#BST#0" expanded="true" />
             <element signature="method#BST#1;class#BST#0" expanded="true" />
             <element signature="method#add#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#add#1;class#BST#0" expanded="true" />
             <element signature="method#add#1;class#BST#0" expanded="true" />
             <element signature="method#remove#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#removeHelper#0;class#BST#0" expanded="true" />
@@ -703,13 +701,13 @@
             <element signature="docComment;method#inorder#1;class#BST#0" expanded="true" />
             <element signature="method#inorder#1;class#BST#0" expanded="true" />
             <element signature="method#levelorder#0;class#BST#0" expanded="true" />
-            <element signature="e#7444#7456#0" expanded="true" />
+            <element signature="e#7390#7402#0" expanded="true" />
             <element signature="method#listLeavesDescending#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#listLeavesDescending#1;class#BST#0" expanded="true" />
             <element signature="method#listLeavesDescending#1;class#BST#0" expanded="true" />
             <element signature="method#clear#0;class#BST#0" expanded="true" />
-            <element signature="e#8818#8819#0" expanded="true" />
-            <element signature="e#8857#8858#0" expanded="true" />
+            <element signature="e#8764#8765#0" expanded="true" />
+            <element signature="e#8803#8804#0" expanded="true" />
             <element signature="docComment;method#height#1;class#BST#0" expanded="true" />
             <element signature="method#height#1;class#BST#0" expanded="true" />
             <element signature="method#getRoot#0;class#BST#0" expanded="true" />
@@ -751,12 +749,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#BST#0" expanded="true" />
             <element signature="docComment;method#BST#0;class#BST#0" expanded="true" />
             <element signature="method#BST#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#BST#1;class#BST#0" expanded="true" />
             <element signature="method#BST#1;class#BST#0" expanded="true" />
             <element signature="method#add#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#add#1;class#BST#0" expanded="true" />
             <element signature="method#add#1;class#BST#0" expanded="true" />
             <element signature="method#remove#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#removeHelper#0;class#BST#0" expanded="true" />
@@ -778,13 +776,13 @@
             <element signature="docComment;method#inorder#1;class#BST#0" expanded="true" />
             <element signature="method#inorder#1;class#BST#0" expanded="true" />
             <element signature="method#levelorder#0;class#BST#0" expanded="true" />
-            <element signature="e#7444#7456#0" expanded="true" />
+            <element signature="e#7390#7402#0" expanded="true" />
             <element signature="method#listLeavesDescending#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#listLeavesDescending#1;class#BST#0" expanded="true" />
             <element signature="method#listLeavesDescending#1;class#BST#0" expanded="true" />
             <element signature="method#clear#0;class#BST#0" expanded="true" />
-            <element signature="e#8818#8819#0" expanded="true" />
-            <element signature="e#8857#8858#0" expanded="true" />
+            <element signature="e#8764#8765#0" expanded="true" />
+            <element signature="e#8803#8804#0" expanded="true" />
             <element signature="docComment;method#height#1;class#BST#0" expanded="true" />
             <element signature="method#height#1;class#BST#0" expanded="true" />
             <element signature="method#getRoot#0;class#BST#0" expanded="true" />
@@ -826,12 +824,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#BST#0" expanded="true" />
             <element signature="docComment;method#BST#0;class#BST#0" expanded="true" />
             <element signature="method#BST#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#BST#1;class#BST#0" expanded="true" />
             <element signature="method#BST#1;class#BST#0" expanded="true" />
             <element signature="method#add#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#add#1;class#BST#0" expanded="true" />
             <element signature="method#add#1;class#BST#0" expanded="true" />
             <element signature="method#remove#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#removeHelper#0;class#BST#0" expanded="true" />
@@ -853,13 +851,13 @@
             <element signature="docComment;method#inorder#1;class#BST#0" expanded="true" />
             <element signature="method#inorder#1;class#BST#0" expanded="true" />
             <element signature="method#levelorder#0;class#BST#0" expanded="true" />
-            <element signature="e#7444#7456#0" expanded="true" />
+            <element signature="e#7390#7402#0" expanded="true" />
             <element signature="method#listLeavesDescending#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#listLeavesDescending#1;class#BST#0" expanded="true" />
             <element signature="method#listLeavesDescending#1;class#BST#0" expanded="true" />
             <element signature="method#clear#0;class#BST#0" expanded="true" />
-            <element signature="e#8818#8819#0" expanded="true" />
-            <element signature="e#8857#8858#0" expanded="true" />
+            <element signature="e#8764#8765#0" expanded="true" />
+            <element signature="e#8803#8804#0" expanded="true" />
             <element signature="docComment;method#height#1;class#BST#0" expanded="true" />
             <element signature="method#height#1;class#BST#0" expanded="true" />
             <element signature="method#getRoot#0;class#BST#0" expanded="true" />
@@ -1005,16 +1003,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="55" column="43" lean-forward="false" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
+        <state relative-caret-position="294">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#BST#0" expanded="true" />
             <element signature="docComment;method#BST#0;class#BST#0" expanded="true" />
             <element signature="method#BST#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#BST#1;class#BST#0" expanded="true" />
             <element signature="method#BST#1;class#BST#0" expanded="true" />
             <element signature="method#add#0;class#BST#0" expanded="true" />
+            <element signature="docComment;method#add#1;class#BST#0" expanded="true" />
             <element signature="method#add#1;class#BST#0" expanded="true" />
             <element signature="method#remove#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#removeHelper#0;class#BST#0" expanded="true" />
@@ -1036,13 +1034,13 @@
             <element signature="docComment;method#inorder#1;class#BST#0" expanded="true" />
             <element signature="method#inorder#1;class#BST#0" expanded="true" />
             <element signature="method#levelorder#0;class#BST#0" expanded="true" />
-            <element signature="e#7444#7456#0" expanded="true" />
+            <element signature="e#7390#7402#0" expanded="true" />
             <element signature="method#listLeavesDescending#0;class#BST#0" expanded="true" />
             <element signature="docComment;method#listLeavesDescending#1;class#BST#0" expanded="true" />
             <element signature="method#listLeavesDescending#1;class#BST#0" expanded="true" />
             <element signature="method#clear#0;class#BST#0" expanded="true" />
-            <element signature="e#8818#8819#0" expanded="true" />
-            <element signature="e#8857#8858#0" expanded="true" />
+            <element signature="e#8764#8765#0" expanded="true" />
+            <element signature="e#8803#8804#0" expanded="true" />
             <element signature="docComment;method#height#1;class#BST#0" expanded="true" />
             <element signature="method#height#1;class#BST#0" expanded="true" />
             <element signature="method#getRoot#0;class#BST#0" expanded="true" />
