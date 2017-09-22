@@ -1,6 +1,7 @@
 import java.util.Collection;
 import java.util.List;
 
+
 /**
  * Your implementation of a binary search tree.
  *
@@ -19,6 +20,7 @@ public class BST<T extends Comparable<? super T>> implements BSTInterface<T> {
      * DO NOT IMPLEMENT THIS CONSTRUCTOR!
      */
     public BST() {
+        size = 0;
     }
 
     /**
@@ -29,27 +31,53 @@ public class BST<T extends Comparable<? super T>> implements BSTInterface<T> {
      * @throws IllegalArgumentException if data or any element in data is null
      */
     public BST(Collection<T> data) {
-
+        if (data == null) {
+            throw new IllegalArgumentException("Data cannot be null");
+        }
+        size = 0;
+        for (T t : data) {
+            dataIsNullCheck(t);
+            add(t);
+        }
     }
 
     @Override
     public void add(T data) {
-
+        dataIsNullCheck(data);
+        if (root == null) {
+            root = new BSTNode<T>(data);
+            size++;
+        } else {
+            add(data);
+        }
     }
 
     @Override
     public T remove(T data) {
-
+        return data;
     }
 
     @Override
     public T get(T data) {
+        dataIsNullCheck(data);
+        if (root == null) {
+            throw new java.util.NoSuchElementException("Element does not " +
+                    "exist");
+        }
+        return data;
 
     }
 
     @Override
     public boolean contains(T data) {
+        dataIsNullCheck(data);
+        return false;
+    }
 
+    private void dataIsNullCheck(T data) {
+        if (data == null) {
+            throw new IllegalArgumentException("Data cannot be null");
+        }
     }
 
     @Override
@@ -60,38 +88,40 @@ public class BST<T extends Comparable<? super T>> implements BSTInterface<T> {
 
     @Override
     public List<T> preorder() {
-
+        return null;
     }
 
     @Override
     public List<T> postorder() {
-
+        return null;
     }
 
     @Override
     public List<T> inorder() {
-
+        return null;
     }
 
     @Override
     public List<T> levelorder() {
-
+        return null;
     }
 
     @Override
     public List<T> listLeavesDescending() {
-
+        return null;
     }
 
     @Override
     public void clear() {
-
+        root = null;
+        size = 0;
     }
 
     @Override
     public int height() {
-
+        return 0;
     }
+
 
     @Override
     public BSTNode<T> getRoot() {
