@@ -74,12 +74,6 @@ public class BST<T extends Comparable<? super T>> implements BSTInterface<T> {
         return false;
     }
 
-    private void dataIsNullCheck(T data) {
-        if (data == null) {
-            throw new IllegalArgumentException("Data cannot be null");
-        }
-    }
-
     @Override
     public int size() {
         // DO NOT MODIFY THIS METHOD
@@ -127,5 +121,15 @@ public class BST<T extends Comparable<? super T>> implements BSTInterface<T> {
     public BSTNode<T> getRoot() {
         // DO NOT MODIFY THIS METHOD!
         return root;
+    }
+
+    /**
+     *
+     * @param data the data to check if it is null or not
+     */
+    private void dataIsNullCheck(T data) {
+        if (data == null) {
+            throw new IllegalArgumentException("Data cannot be null");
+        }
     }
 }
